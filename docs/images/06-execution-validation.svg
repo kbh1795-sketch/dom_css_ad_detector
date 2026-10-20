@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
-<title>6. 실행 방식 및 검증 계획</title>
-<rect width="100%" height="100%" fill="white"/>
-<text x="800.0" y="54" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="38" font-weight="700" fill="#171717">6. 실행 방식 및 검증 계획</text>
-<polyline points="70,135 490,135 490,305 70,305 70,135" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="280.0" y="180.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">CPU 기반 실행</text>
-<text x="280.0" y="225.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">Python · PySide6</text>
-<text x="280.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">외부 AI 없이 판별</text>
-<polyline points="590,135 1010,135 1010,305 590,305 590,135" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="800.0" y="180.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">실행 효율 관리</text>
-<text x="800.0" y="225.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">공유 브라우저 · 동시 처리</text>
-<text x="800.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">페이지 수 · 시간 제한</text>
-<polyline points="1110,135 1530,135 1530,305 1110,305 1110,135" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="1320.0" y="180.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">검사 결과 저장</text>
-<text x="1320.0" y="225.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">완료 · 중지 · 시간 초과</text>
-<text x="1320.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">확인된 결과 유지</text>
-<polyline points="70,385 490,385 490,510 70,510 70,385" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="280.0" y="427.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">자체 테스트</text>
-<text x="280.0" y="472.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">4기법 · 오탐 · 위치 검증</text>
-<polyline points="590,385 1010,385 1010,510 590,510 590,385" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 7"/>
-<text x="800.0" y="427.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">현장 실증</text>
-<text x="800.0" y="472.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">정밀도 · 재현율 · 시간</text>
-<polyline points="1110,385 1530,385 1530,510 1110,510 1110,385" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 7"/>
-<text x="1320.0" y="427.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">분석 규칙 개선</text>
-<text x="1320.0" y="472.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">정탐·오탐 검토 반영</text>
-<polyline points="490,220 590,220" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="590,220 579.1946347717678,225.21958640933477 579.1946347717678,214.78041359066523" fill="#333333"/>
-<polyline points="490,447.5 590,447.5" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="590,447.5 579.1946347717678,452.71958640933474 579.1946347717678,442.28041359066526" fill="#333333"/>
-<polyline points="1010,220 1110,220" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="1110,220 1099.1946347717678,225.21958640933477 1099.1946347717678,214.78041359066523" fill="#333333"/>
-<polyline points="1010,447.5 1110,447.5" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 7"/>
-<polygon points="1110,447.5 1099.1946347717678,452.71958640933474 1099.1946347717678,442.28041359066526" fill="#333333"/>
-<polyline points="280,305 280,385" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="280,385 274.78041359066526,374.1946347717679 285.21958640933474,374.1946347717679" fill="#333333"/>
-<text x="800.0" y="552" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#444444">점선: 현장 실증 및 운영 개선 계획</text>
+<title>6. Execution and validation plan</title>
+<rect width="100%" height="100%" fill="white" />
+<text x="800.0" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#171717">6. Execution and validation plan</text>
+<polyline points="70,135 490,135 490,305 70,305 70,135" fill="none" stroke="#333333" stroke-width="2" />
+<text x="280.0" y="180.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">CPU-based execution</text>
+<text x="280.0" y="225.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Python · PySide6</text>
+<text x="280.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">No external AI required</text>
+<polyline points="590,135 1010,135 1010,305 590,305 590,135" fill="none" stroke="#333333" stroke-width="2" />
+<text x="800.0" y="180.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">Execution efficiency</text>
+<text x="800.0" y="225.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#333333">Shared browser · Concurrent pages</text>
+<text x="800.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Page and time limits</text>
+<polyline points="1110,135 1530,135 1530,305 1110,305 1110,135" fill="none" stroke="#333333" stroke-width="2" />
+<text x="1320.0" y="180.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">Save scan results</text>
+<text x="1320.0" y="225.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Complete · Stop · Timeout</text>
+<text x="1320.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Preserve verified findings</text>
+<polyline points="70,385 490,385 490,510 70,510 70,385" fill="none" stroke="#333333" stroke-width="2" />
+<text x="280.0" y="427.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">Local tests</text>
+<text x="280.0" y="472.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#333333">Techniques · False positives · Locations</text>
+<polyline points="590,385 1010,385 1010,510 590,510 590,385" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 7" />
+<text x="800.0" y="427.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">Field validation</text>
+<text x="800.0" y="472.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Precision · Recall · Duration</text>
+<polyline points="1110,385 1530,385 1530,510 1110,510 1110,385" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 7" />
+<text x="1320.0" y="427.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">Improve rules</text>
+<text x="1320.0" y="472.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Review true and false positives</text>
+<polyline points="490,220 590,220" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="590,220 579.1946347717678,225.21958640933477 579.1946347717678,214.78041359066523" fill="#333333" />
+<polyline points="490,447.5 590,447.5" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="590,447.5 579.1946347717678,452.71958640933474 579.1946347717678,442.28041359066526" fill="#333333" />
+<polyline points="1010,220 1110,220" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="1110,220 1099.1946347717678,225.21958640933477 1099.1946347717678,214.78041359066523" fill="#333333" />
+<polyline points="1010,447.5 1110,447.5" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 7" />
+<polygon points="1110,447.5 1099.1946347717678,452.71958640933474 1099.1946347717678,442.28041359066526" fill="#333333" />
+<polyline points="280,305 280,385" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="280,385 274.78041359066526,374.1946347717679 285.21958640933474,374.1946347717679" fill="#333333" />
+<text x="800.0" y="552" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#444444">Dashed outline: planned field validation and improvement</text>
 </svg>

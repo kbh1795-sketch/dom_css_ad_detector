@@ -2,7 +2,7 @@
 ## Public Website Illegal Advertisement Detection System
 
 **Project Name:** Public Web Ad Detector
-**Target:** 행정안전부·NIA 「공공 웹사이트 불법광고 탐지 도구 개발 공모전」
+**Target:** Ministry of the Interior and Safety / NIA, Public Website Illegal Advertisement Detection Tool Competition
 **Development Priority:** Detection Accuracy → Detection Coverage → Execution Speed → Usability
 
 ---

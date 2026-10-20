@@ -60,7 +60,7 @@ class Crawler:
 
     async def scan(self, entry, output):
         entry=canonical(entry)
-        if not entry: raise ValueError('유효한 http/https URL을 입력해 주세요.')
+        if not entry: raise ValueError('Enter a valid HTTP or HTTPS URL.')
         cfg=self.config
         if not (1<=cfg.workers<=16 and cfg.max_pages>=1 and 0<cfg.timeout_seconds<=1800): raise ValueError('Invalid scan limits')
         start=time.perf_counter();started=datetime.now().astimezone().isoformat()

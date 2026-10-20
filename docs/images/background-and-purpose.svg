@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="850" viewBox="0 0 1600 850">
-<title>공공 웹사이트 불법광고 탐지: 개발 배경 및 목적</title>
-<rect width="100%" height="100%" fill="white"/>
-<text x="800.0" y="54" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="38" font-weight="700" fill="#171717">공공 웹사이트 불법광고 탐지: 개발 배경 및 목적</text>
-<text x="800" y="105" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="27" font-weight="400" fill="#444444">문제 상황 → 점검의 한계 → 개발 목표</text>
-<polyline points="70,180 490,180 490,430 70,430 70,180" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="280.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="32" font-weight="700" fill="#171717">숨겨진 불법광고</text>
-<text x="280.0" y="310.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">문자 변형 · 투명 처리</text>
-<text x="280.0" y="350.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">화면 밖 배치</text>
-<polyline points="590,180 1010,180 1010,430 590,430 590,180" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="800.0" y="245.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="32" font-weight="700" fill="#171717">기존 점검의 한계</text>
-<text x="800.0" y="290.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">육안·키워드 점검 누락</text>
-<text x="800.0" y="330.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">유해 사이트 유입 우려</text>
-<text x="800.0" y="370.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">행정서비스 신뢰 저하</text>
-<polyline points="1110,180 1530,180 1530,430 1110,430 1110,180" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="1320.0" y="245.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="32" font-weight="700" fill="#171717">개발 목표</text>
-<text x="1320.0" y="290.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">불법광고 자동 탐지</text>
-<text x="1320.0" y="330.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">원문 · 위치 · 판별 근거 제공</text>
-<text x="1320.0" y="370.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">담당자의 확인과 조치 지원</text>
-<polyline points="490,305 590,305" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="590,305 579.1946347717678,310.21958640933474 579.1946347717678,299.78041359066526" fill="#333333"/>
-<polyline points="1010,305 1110,305" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="1110,305 1099.1946347717678,310.21958640933474 1099.1946347717678,299.78041359066526" fill="#333333"/>
-<polyline points="1320,430 1320,475 800,475 800,520" fill="none" stroke="#333333" stroke-width="2"/>
-<polygon points="800,520 794.7804135906653,509.1946347717679 805.2195864093347,509.1946347717679" fill="#333333"/>
-<polyline points="250,520 1350,520 1350,625 250,625 250,520" fill="none" stroke="#333333" stroke-width="2"/>
-<text x="800.0" y="572.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="34" font-weight="700" fill="#171717">점검 사각지대 축소 · 수작업 점검 효율 향상</text>
-<polyline points="120,680 1480,680" fill="none" stroke="#aaaaaa" stroke-width="2"/>
-<text x="800" y="723" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="29" font-weight="700" fill="#171717">예방적 대응의 필요성: 청소년 평생 도박 경험률 4.3%</text>
-<text x="800" y="772" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="23" font-weight="400" fill="#444444">출처: 한국도박문제예방치유원, 2024년 청소년 도박 실태조사</text>
-<text x="800" y="810" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="22" font-weight="400" fill="#555555">※ 청소년 도박 경험 통계이며, 공공 웹사이트의 광고 노출률을 의미하지 않음</text>
-<desc>배경 통계 출처: https://kcgp.or.kr/portal/bbs/B0000031/view.do?menuNo=200021&amp;nttId=315190</desc>
+<title>Public website ad detection: background and purpose</title>
+<rect width="100%" height="100%" fill="white" />
+<text x="800.0" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#171717">Public website ad detection: background and purpose</text>
+<text x="800" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#444444">Problem → Inspection gap → Development goal</text>
+<polyline points="70,180 490,180 490,430 70,430 70,180" fill="none" stroke="#333333" stroke-width="2" />
+<text x="280.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Concealed illegal ads</text>
+<text x="280.0" y="310.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Obfuscation · Transparent styling</text>
+<text x="280.0" y="350.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Off-screen placement</text>
+<polyline points="590,180 1010,180 1010,430 590,430 590,180" fill="none" stroke="#333333" stroke-width="2" />
+<text x="800.0" y="245.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Inspection gaps</text>
+<text x="800.0" y="290.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Missed by visual / keyword checks</text>
+<text x="800.0" y="330.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Risk of harmful-site exposure</text>
+<text x="800.0" y="370.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Reduced trust in public services</text>
+<polyline points="1110,180 1530,180 1530,430 1110,430 1110,180" fill="none" stroke="#333333" stroke-width="2" />
+<text x="1320.0" y="245.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Development goal</text>
+<text x="1320.0" y="290.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Automated ad detection</text>
+<text x="1320.0" y="330.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Original text · Location · Evidence</text>
+<text x="1320.0" y="370.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#333333">Support review and remediation</text>
+<polyline points="490,305 590,305" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="590,305 579.1946347717678,310.21958640933474 579.1946347717678,299.78041359066526" fill="#333333" />
+<polyline points="1010,305 1110,305" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="1110,305 1099.1946347717678,310.21958640933474 1099.1946347717678,299.78041359066526" fill="#333333" />
+<polyline points="1320,430 1320,475 800,475 800,520" fill="none" stroke="#333333" stroke-width="2" />
+<polygon points="800,520 794.7804135906653,509.1946347717679 805.2195864093347,509.1946347717679" fill="#333333" />
+<polyline points="250,520 1350,520 1350,625 250,625 250,520" fill="none" stroke="#333333" stroke-width="2" />
+<text x="800.0" y="572.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#171717">Reduce inspection gaps and improve manual-review efficiency</text>
+<polyline points="120,680 1480,680" fill="none" stroke="#aaaaaa" stroke-width="2" />
+<text x="800" y="723" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717">Prevention context: 4.3% lifetime youth gambling experience</text>
+<text x="800" y="772" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#444444">Source: Korea Problem Gambling Agency, 2024 Youth Gambling Survey</text>
+<text x="800" y="810" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#555555">Youth gambling experience, not an estimate of ad exposure on public websites</text>
+<desc>Background statistic source: https://kcgp.or.kr/portal/bbs/B0000031/view.do?menuNo=200021&amp;nttId=315190</desc>
 </svg>

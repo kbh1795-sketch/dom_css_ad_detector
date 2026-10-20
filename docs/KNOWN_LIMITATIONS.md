@@ -1,24 +1,26 @@
-# 검증 범위와 미완료 사항
+# Known limitations
 
-## 공모전 적합성 미확인
+## Compliance and environment
 
-- 첨부된 자료는 SRS 텍스트뿐입니다. 공모전 PDF 첨부 1~4와 공식 JSON 스키마를 확인하지 못했습니다. `TOPIC`은 확정 값이 아닙니다. 구현한 스키마는 SRS 기반 로컬 스키마입니다.
-- 실행 파일은 현재 Windows 11 개발 환경에서 검증합니다. 별도 초기화된 PC, 스마트스크린·백신 제품별 동작, 코드 서명, 설치 프로그램은 검증/제공 범위에 포함되지 않습니다.
-- Chromium은 `--disable-gpu`로 실행합니다. 전용 GPU를 요구하지 않지만 물리적으로 GPU가 없는 별도 장비에서 시험한 것은 아닙니다.
+- Implementation started from the supplied SRS. Competition PDF attachments 1-4 and the official JSON schema were not verified. `TOPIC` is provisional; the shipped schema is a local SRS-derived schema.
+- The historical executable was tested in the Windows 11 development environment, not on an independently provisioned PC. Code signing, an installer, and product-specific antivirus/SmartScreen behavior are outside the verified scope.
+- Chromium runs with `--disable-gpu`. A dedicated GPU is not required, but an independent physically GPU-free machine was not tested.
 
-## 탐지·범위 한계
+## Detection and coverage
 
-- 자체 고정 테스트 16개 결과의 100%는 실제 공모전 성능의 추정치가 아닙니다. 외부 정답 코퍼스, 수만 페이지 부하, 30분 한계에서의 대규모 벤치마크는 수행하지 않았습니다.
-- 문자 혼동 매핑과 광고 사전은 제한적입니다. 창의적인 오탈자, 중간 HTML 태그 분할, CSS 가상 요소, Shadow DOM, canvas, 이미지 텍스트, 인코딩·리디렉션 광고는 누락될 수 있습니다.
-- href로 노출된 게시글·댓글·페이지와 렌더링된 DOM을 검사합니다. 로그인, 클릭 전용 페이지 전환, 더 보기, 무한 스크롤, 제출형 검색, 사용자 동작 뒤 열리는 댓글은 자동 조작하지 않습니다.
-- 동일 출처 링크만 크롤링합니다. 도메인 별칭·서브도메인은 자동 확장하지 않습니다. 내장 iframe은 재귀 검사하지만 iframe 내 별도 링크 중 다른 출처는 탐색하지 않습니다.
-- CSS 색상 비교는 가장 가까운 불투명 조상 배경 또는 흰색 배경을 사용합니다. 배경 이미지·그라데이션·반투명 합성·변환·복잡한 clipping을 완전히 재현하지 않습니다. 화면 아래의 일반 긴 본문은 화면 밖 은닉으로 간주하지 않습니다.
-- 규칙 기반 점수는 공익 안내와 홍보를 완벽히 구별하지 못합니다. 공익 용어를 넣은 광고를 누락하거나 광고를 인용한 정상 글을 오탐할 수 있습니다. 주변 문맥은 길이가 제한됩니다.
-- 페이지가 선택자 검증 후 바뀌면 나중 재현 시 위치가 달라질 수 있습니다. 원본 DOM을 영구 저장하지 않습니다. iframe 절대 src는 제공된 LocationResolver의 URL 의미 비교가 필요합니다.
-- `max_pages` 도달 시 추가 링크는 방문하지 않으므로 방문 목록으로 범위를 확인해야 합니다. 제한 도달을 사이트 전수 검사 완료로 해석해서는 안 됩니다.
-- 오류가 발생한 페이지·프레임은 상세 파일에 기록하고 다른 작업을 계속합니다. robots.txt는 시작 출처에서 읽습니다. 서버가 응답하지 않으면 오류를 기록하고 조회 가능한 공개 페이지를 검사합니다.
-- 네트워크 세션 인증·CAPTCHA를 우회하지 않습니다. 광고 판별 AI, ETC 출력, 자동 법률 판정, 이미지 OCR은 제공하지 않습니다.
+- Perfect results on 16 local expected findings do not estimate competition performance. External ground truth, tens of thousands of pages, and full 30-minute load benchmarks have not been evaluated.
+- Confusable-character and keyword dictionaries are limited. Creative misspellings, text split across HTML tags, pseudo-elements, Shadow DOM, canvas, image text, encoded content, and redirect advertising can be missed.
+- The crawler inspects rendered DOM and links exposed through `href`. It does not automatically log in, submit searches, click pagination or comments, press load-more buttons, or trigger infinite scrolling.
+- Links are restricted to the same origin. Domain aliases and subdomains are not automatically added. Embedded frames are inspected recursively; unrelated external links inside them are not followed.
+- Color comparison uses the closest opaque ancestor background or white. Images, gradients, alpha compositing, transforms, and complex clipping are not fully modeled. Ordinary below-fold content is not automatically considered off-screen concealment.
+- Rule-based scoring cannot perfectly distinguish advertising from public information. Ads containing prevention terminology may be missed, while legitimate quotations may be flagged. Nearby context is length-limited.
+- The DOM may change after location verification. Full page snapshots are not preserved. Absolute iframe paths require the supplied URL-aware resolver.
+- Links beyond `max_pages` are not visited. Review the visited list; reaching the limit does not establish full coverage.
+- Page/frame errors are recorded while other work continues. The entry origin's robots.txt is checked; if it is unreachable, an error is recorded and accessible public pages may still be scanned.
+- No authentication/CAPTCHA bypass, AI classification, `ETC` output, legal adjudication, or image OCR is provided.
 
-## 실행·배포 한계
+## Execution and distribution
 
-프로그램은 최종/중지/시간 초과 시 결과를 저장합니다. 강제 종료 시 주기적 체크포인트는 없습니다. 실행 파일과 라이브러리·Chromium을 함께 배포해야 하며, 쓰기 권한 없는 폴더에서는 출력 경로를 변경해야 합니다. GUI의 진행 표시는 총 URL 수를 사전에 알 수 없어 검사 중 비율 대신 불확정 막대와 실제 방문 수를 표시합니다.
+Results are saved at completion, stop, or timeout, with no periodic forced-termination checkpoint. Distribute Chromium and libraries with the executable. Use a writable output directory. The GUI displays an indeterminate progress bar with actual counts because the total number of discoverable URLs is unknown.
+
+The repository's English interface requires a new build. Historical executable validation records describe the earlier packaged build, not an English binary release.
