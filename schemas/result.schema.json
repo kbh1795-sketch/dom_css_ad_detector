@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "required": [
+    "meta",
+    "findings"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "topic",
+        "entry_url",
+        "started_at",
+        "finished_at",
+        "elapsed_sec",
+        "tool_version"
+      ],
+      "properties": {
+        "topic": {
+          "type": "string"
+        },
+        "entry_url": {
+          "type": "string"
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "finished_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "elapsed_sec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "tool_version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "url",
+          "is_violation",
+          "location",
+          "evidence_text",
+          "technique"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "is_violation": {
+            "const": true
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_text": {
+            "type": "string"
+          },
+          "technique": {
+            "enum": [
+              "HOMOGLYPH",
+              "JAMO",
+              "TRANSPARENT",
+              "OFFSCREEN"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

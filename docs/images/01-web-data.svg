@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+<title>1. 웹페이지 수집 및 분석 데이터 구성</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="800.0" y="54" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="38" font-weight="700" fill="#171717">1. 웹페이지 수집 및 분석 데이터 구성</text>
+<polyline points="60,215 340,215 340,405 60,405 60,215" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="200.0" y="290.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">시작 URL</text>
+<text x="200.0" y="335.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">검사 범위 설정</text>
+<polyline points="410,180 900,180 900,440 410,440 410,180" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="655.0" y="270.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">브라우저 기반 수집</text>
+<text x="655.0" y="315.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">하위 페이지 · 게시글 · 댓글</text>
+<text x="655.0" y="355.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">JavaScript · 중첩 iframe</text>
+<polyline points="980,180 1540,180 1540,440 980,440 980,180" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1260.0" y="270.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">분석 데이터 구성</text>
+<text x="1260.0" y="315.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">원문 · 주변 문맥 · 링크</text>
+<text x="1260.0" y="355.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">DOM 구조 · 계산 CSS · 좌표</text>
+<polyline points="340,310 410,310" fill="none" stroke="#333333" stroke-width="2"/>
+<polygon points="410,310 399.1946347717679,315.21958640933474 399.1946347717679,304.78041359066526" fill="#333333"/>
+<polyline points="900,310 980,310" fill="none" stroke="#333333" stroke-width="2"/>
+<polygon points="980,310 969.1946347717678,315.21958640933474 969.1946347717678,304.78041359066526" fill="#333333"/>
+<text x="800.0" y="552" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#444444">동일 출처 링크 탐색 · 쿼리 보존 · 방문 URL 중복 관리</text>
+</svg>

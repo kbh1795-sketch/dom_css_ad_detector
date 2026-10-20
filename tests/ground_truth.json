@@ -1,0 +1,18 @@
+[
+  ["/", "p#homo", "HOMOGLYPH"],
+  ["/", "p#cyrillic", "HOMOGLYPH"],
+  ["/", "p#jamo", "JAMO"],
+  ["/", "p#transparent", "TRANSPARENT"],
+  ["/", "p#same", "TRANSPARENT"],
+  ["/", "p#off", "OFFSCREEN"],
+  ["/", "p#hidden", "OFFSCREEN"],
+  ["/", "p#tiny", "OFFSCREEN"],
+  ["/", "p#combo", "JAMO"],
+  ["/", "p#combo", "TRANSPARENT"],
+  ["/", "p#combo", "OFFSCREEN"],
+  ["/", "p#dynamic", "TRANSPARENT"],
+  ["/", "iframe[src=\"{base}/frame\"] >>> p#framead", "TRANSPARENT"],
+  ["/", "iframe[src=\"{base}/frame\"] >>> iframe[src=\"{base}/nested\"] >>> p#nestedad", "OFFSCREEN"],
+  ["/board?id=1", "p#post", "OFFSCREEN"],
+  ["/board?id=2", "p#post", "JAMO"]
+]

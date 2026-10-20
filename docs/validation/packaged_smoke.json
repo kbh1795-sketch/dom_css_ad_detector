@@ -1,0 +1,15 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cli_exit_code": 0,
+  "gui_exit_code": 0,
+  "findings": 16,
+  "ground_truth_match": true,
+  "status": "completed",
+  "errors": [],
+  "elapsed_sec": 6.406,
+  "bundled_browser_without_environment": true,
+  "gpu_disabled_for_browser": true,
+  "stdout": "{\"status\": \"completed\", \"findings\": 16, \"errors\": []}\n",
+  "stderr": "",
+  "gui_stderr": ""
+}

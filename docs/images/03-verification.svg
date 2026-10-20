@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+<title>3. 2차 검증: 광고 가능성 및 기법 판별</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="800.0" y="54" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="38" font-weight="700" fill="#171717">3. 2차 검증: 광고 가능성 및 기법 판별</text>
+<polyline points="60,230 310,230 310,380 60,380 60,230" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="185.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">의심 후보</text>
+<text x="185.0" y="310.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">정규화 텍스트</text>
+<text x="185.0" y="350.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">문맥 · 링크</text>
+<polyline points="385,195 825,195 825,415 385,415 385,195" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="605.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">규칙 기반 검증</text>
+<text x="605.0" y="310.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">+ 홍보 표현 · 변형 · 은닉</text>
+<text x="605.0" y="350.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">- 예방 · 상담 등 공익 문맥</text>
+<polyline points="310,305 385,305" fill="none" stroke="#333333" stroke-width="2"/>
+<polygon points="385,305 374.1946347717679,310.21958640933474 374.1946347717679,299.78041359066526" fill="#333333"/>
+<polyline points="825,305 915,305" fill="none" stroke="#333333" stroke-width="2"/>
+<polygon points="915,305 904.1946347717678,310.21958640933474 904.1946347717678,299.78041359066526" fill="#333333"/>
+<polyline points="915,145 1540,145 1540,465 915,465 915,145" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1227.5" y="305.0" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">기법별 결과 분류</text>
+<rect x="918" y="148" width="619" height="314" fill="white"/>
+<text x="1227.5" y="185" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#171717">기법별 결과 분류</text>
+<polyline points="945,220 1210,220 1210,315 945,315 945,220" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1077.5" y="247.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#171717">HOMOGLYPH</text>
+<text x="1077.5" y="292.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">유사 문자</text>
+<polyline points="1245,220 1510,220 1510,315 1245,315 1245,220" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1377.5" y="247.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#171717">JAMO</text>
+<text x="1377.5" y="292.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">자모 분리</text>
+<polyline points="945,335 1210,335 1210,430 945,430 945,335" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1077.5" y="362.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#171717">TRANSPARENT</text>
+<text x="1077.5" y="407.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">투명 처리</text>
+<polyline points="1245,335 1510,335 1510,430 1245,430 1245,335" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1377.5" y="362.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#171717">OFFSCREEN</text>
+<text x="1377.5" y="407.5" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#333333">화면 밖·숨김</text>
+<text x="800.0" y="552" text-anchor="middle" dominant-baseline="central" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="25" font-weight="400" fill="#444444">기준 충족 시 출력 · 한 요소의 복수 기법은 각각 기록</text>
+</svg>

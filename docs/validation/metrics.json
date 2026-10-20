@@ -1,0 +1,11 @@
+{
+  "true_positives": 16,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "screening_recall": 1.0,
+  "elapsed_sec": 5.682,
+  "pages": 4,
+  "errors": []
+}

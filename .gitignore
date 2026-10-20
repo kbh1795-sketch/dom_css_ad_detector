@@ -1,0 +1,48 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Builds, bundled browsers, and generated license inventory
+/build/
+/dist/
+/release/
+/build-browsers/
+/browsers/
+/third_party_licenses/
+*.spec
+*.exe
+*.dll
+*.pyd
+*.whl
+*.zip
+*.7z
+
+# Runtime output (historical records under docs/validation stay tracked)
+/result.json
+/result_extra.json
+/scan_details.json
+/test-result.json
+/test_evidence/
+*.log
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

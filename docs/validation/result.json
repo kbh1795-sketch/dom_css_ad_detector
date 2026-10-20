@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "topic": "TOPIC",
+    "entry_url": "http://127.0.0.1:60375/",
+    "started_at": "2026-10-20T03:09:36.749372+11:00",
+    "finished_at": "2026-10-20T03:09:42.430903+11:00",
+    "elapsed_sec": 5.682,
+    "tool_version": "1.0.0"
+  },
+  "findings": [
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "iframe[src=\"http://127.0.0.1:60375/frame\"] >>> iframe[src=\"http://127.0.0.1:60375/nested\"] >>> p#nestedad",
+      "evidence_text": "토토 가입 보너스",
+      "technique": "OFFSCREEN",
+      "id": "f_001"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "iframe[src=\"http://127.0.0.1:60375/frame\"] >>> p#framead",
+      "evidence_text": "카지노 가입 보너스",
+      "technique": "TRANSPARENT",
+      "id": "f_002"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#combo",
+      "evidence_text": "ㅋㅏㅈㅣㄴㅗ 가입 보너스",
+      "technique": "JAMO",
+      "id": "f_003"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#combo",
+      "evidence_text": "ㅋㅏㅈㅣㄴㅗ 가입 보너스",
+      "technique": "OFFSCREEN",
+      "id": "f_004"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#combo",
+      "evidence_text": "ㅋㅏㅈㅣㄴㅗ 가입 보너스",
+      "technique": "TRANSPARENT",
+      "id": "f_005"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#cyrillic",
+      "evidence_text": "саsіnо signup bonus",
+      "technique": "HOMOGLYPH",
+      "id": "f_006"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#dynamic",
+      "evidence_text": "토토 가입 보너스",
+      "technique": "TRANSPARENT",
+      "id": "f_007"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#hidden",
+      "evidence_text": "카지노 가입 보너스 지급",
+      "technique": "OFFSCREEN",
+      "id": "f_008"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#homo",
+      "evidence_text": "ｃａｓｉｎｏ signup bonus",
+      "technique": "HOMOGLYPH",
+      "id": "f_009"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#jamo",
+      "evidence_text": "ㅋ ㅏ · ㅈ ㅣ · ㄴ ㅗ 가입 보너스 지급",
+      "technique": "JAMO",
+      "id": "f_010"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#off",
+      "evidence_text": "바카라 가입 보너스",
+      "technique": "OFFSCREEN",
+      "id": "f_011"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#same",
+      "evidence_text": "토토 첫충 보너스",
+      "technique": "TRANSPARENT",
+      "id": "f_012"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#tiny",
+      "evidence_text": "슬롯 가입 보너스",
+      "technique": "OFFSCREEN",
+      "id": "f_013"
+    },
+    {
+      "url": "http://127.0.0.1:60375/",
+      "is_violation": true,
+      "location": "p#transparent",
+      "evidence_text": "카지노 가입 보너스 지급",
+      "technique": "TRANSPARENT",
+      "id": "f_014"
+    },
+    {
+      "url": "http://127.0.0.1:60375/board?id=1",
+      "is_violation": true,
+      "location": "p#post",
+      "evidence_text": "카지노 가입 보너스",
+      "technique": "OFFSCREEN",
+      "id": "f_015"
+    },
+    {
+      "url": "http://127.0.0.1:60375/board?id=2",
+      "is_violation": true,
+      "location": "p#post",
+      "evidence_text": "ㅋㅏㅈㅣㄴㅗ 가입 보너스",
+      "technique": "JAMO",
+      "id": "f_016"
+    }
+  ]
+}
